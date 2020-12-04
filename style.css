@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Bangers', cursive;
+}
+header{
+    background-color: #663300;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-size: xxx-large;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#input{
+    border: 1px solid green;
+    height: 6em;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: large;
+}
+
+#output{
+    border: 1px solid green;
+    height: 6em;
+
+}
+
+#btn-translate{
+    border: 1px dashed green;
+    font-size: 2em;
+    margin: 1.5em auto;
+    font-family: inherit;
+    padding: 0.5em;
+}
+
+main{
+    margin: 150px 25%;
+}
+
+footer{
+    background-color: #663300;
+    color: white;   
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
